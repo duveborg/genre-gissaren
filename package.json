@@ -2,7 +2,7 @@
   "name": "react-temp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://duveborg.github.io/genre-gissaren",
+  "homepage": "https://duveborg.github.io/genre-gissaren",
   "dependencies": {
     "@pixi/react": "^7.1.1",
     "@types/node": "^16.18.50",
