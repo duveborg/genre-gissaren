@@ -283,7 +283,7 @@ const Endscreen: React.FC<GameViewProps> = ({ setGameState, gameState }) => {
       </div>
 
       <div className="text">
-        Du fick <strong>{gameState?.data?.score}</strong> poäng!
+        Du fick <strong>{gameState?.data?.score}</strong> poäng! 🌟
       </div>
 
       <div className="text">
@@ -295,7 +295,7 @@ const Endscreen: React.FC<GameViewProps> = ({ setGameState, gameState }) => {
         className="button"
         onClick={() => setGameState({ status: 'game' })}
       >
-        Spela igen
+        Spela igen 
       </button>
     </div>
   );
