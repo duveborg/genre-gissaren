@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/genre-gissaren/static/css/main.384656b9.css",
+    "main.js": "/genre-gissaren/static/js/main.3b077e75.js",
+    "static/media/bg.avif": "/genre-gissaren/static/media/bg.58e4fb995be7a227d56d.avif",
+    "index.html": "/genre-gissaren/index.html",
+    "main.384656b9.css.map": "/genre-gissaren/static/css/main.384656b9.css.map",
+    "main.3b077e75.js.map": "/genre-gissaren/static/js/main.3b077e75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.384656b9.css",
+    "static/js/main.3b077e75.js"
+  ]
+}
