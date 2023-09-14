@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/genre-gissaren/static/css/main.10370fd2.css",
-    "main.js": "/genre-gissaren/static/js/main.dba5c125.js",
+    "main.js": "/genre-gissaren/static/js/main.6bfd2b7a.js",
     "static/media/bg.avif": "/genre-gissaren/static/media/bg.58e4fb995be7a227d56d.avif",
     "index.html": "/genre-gissaren/index.html",
     "main.10370fd2.css.map": "/genre-gissaren/static/css/main.10370fd2.css.map",
-    "main.dba5c125.js.map": "/genre-gissaren/static/js/main.dba5c125.js.map"
+    "main.6bfd2b7a.js.map": "/genre-gissaren/static/js/main.6bfd2b7a.js.map"
   },
   "entrypoints": [
     "static/css/main.10370fd2.css",
-    "static/js/main.dba5c125.js"
+    "static/js/main.6bfd2b7a.js"
   ]
 }
