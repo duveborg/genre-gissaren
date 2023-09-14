@@ -57,7 +57,6 @@ export const fetchPrograms = async () => {
       }
     );
 
-    // Extract and handle the data from the response
     const programs = response.data.data.mediaIndex.contentList.items.map(
       (item: any) => item.movie || item.series
     ).sort(sortRandom);
