@@ -295,7 +295,7 @@ const Endscreen: React.FC<GameViewProps> = ({ setGameState, gameState }) => {
         className="button"
         onClick={() => setGameState({ status: 'game' })}
       >
-        Nytt spel
+        Spela igen
       </button>
     </div>
   );
