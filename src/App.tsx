@@ -6,7 +6,7 @@ import {
   ColorMatrixFilter,
   Sprite as OrigSprite,
 } from 'pixi.js';
-import {  fetchPrograms } from './api';
+import { fetchPrograms } from './api';
 import { imageUrl, sortRandom } from './helpers';
 import backgroundImage from './bg.avif';
 
@@ -66,6 +66,7 @@ const Inner: React.FC<GameViewProps> = ({ setGameState }) => {
       window.removeEventListener('keydown', handleKeyDown);
       window.removeEventListener('keyup', handleKeyUp);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const nextProgram = () => setPrograms(programs.slice(1));
@@ -92,7 +93,7 @@ const Inner: React.FC<GameViewProps> = ({ setGameState }) => {
 
     const genreOptions = [correctGenre, ...wrongGenres].sort(sortRandom);
     setCurrentGenres(genreOptions);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [programs]);
 
   useEffect(() => {
@@ -144,7 +145,6 @@ const Inner: React.FC<GameViewProps> = ({ setGameState }) => {
       setY(y + downSpeed * delta);
     }
   });
-
 
   const blurFilter = useMemo(() => new BlurFilter(10), []);
   const darkenFilter = useMemo(() => {
@@ -287,7 +287,8 @@ const Endscreen: React.FC<GameViewProps> = ({ setGameState, gameState }) => {
       </div>
 
       <div className="text">
-        Om du vill titta på <strong>{gameState?.data?.program?.title}</strong> kan du göra det här: <a href={link}>{link}</a>
+        Om du vill titta på <strong>{gameState?.data?.program?.title}</strong>{' '}
+        kan du göra det här: <a href={link}>{link}</a>
       </div>
 
       <button
@@ -306,7 +307,6 @@ const Game: React.FC<GameViewProps> = ({ setGameState }) => (
   </Stage>
 );
 
-
 const App = () => {
   const [gameState, setGameState] = useState<GameState>({ status: 'intro' });
 
@@ -319,6 +319,5 @@ const App = () => {
       return <Endscreen gameState={gameState} setGameState={setGameState} />;
   }
 };
-
 
 export default App;
