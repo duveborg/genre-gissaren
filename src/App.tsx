@@ -255,7 +255,7 @@ type GameViewProps = {
 const Introscreen: React.FC<GameViewProps> = ({ setGameState }) => {
   return (
     <div className="container">
-      <div className="heading">Spela genre-gissaren! 🎮</div>
+      <div className="heading">Gissa genren! 🎮</div>
 
       <div className="text">
         Kolla vilket tv4-program som visas och tryck på vänster eller höger
